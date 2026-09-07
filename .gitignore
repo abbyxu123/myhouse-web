@@ -1,0 +1,46 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+dist/
+.vercel/
+coverage/
+playwright-report/
+test-results/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and local tools
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Isolated Git worktrees
+.worktrees/
+worktrees/
+
+# Local-only source materials
+materials-private/*
+!materials-private/README.md
+private/
+materials-inbox/
+raw-assets/
+assets-source/
+
+# Large editable source formats and archives
+*.psd
+*.psb
+*.aep
+*.blend
+*.key
+*.pptx
+*.heic
+*.zip
+*.rar
+*.7z
+*.tar.gz
